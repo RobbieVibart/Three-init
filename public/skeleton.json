@@ -1,0 +1,50 @@
+{
+"skeleton": {
+	"hash": "A/62j/Ve2oU",
+	"spine": "4.2.24",
+	"x": -240,
+	"y": -240,
+	"width": 480,
+	"height": 480,
+	"images": "./FireImgs/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Fire_01", "bone": "root", "attachment": "Fire_", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Fire_01": {
+				"Fire_": {
+					"scaleX": 0.98,
+					"scaleY": 0.98,
+					"width": 480,
+					"height": 480,
+					"sequence": { "count": 16, "digits": 2 }
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"FireAnim": {
+		"attachments": {
+			"default": {
+				"Fire_01": {
+					"Fire_": {
+						"sequence": [
+							{ "mode": "loop", "delay": 0.0333 },
+							{ "time": 0.5333, "mode": "loop" }
+						]
+					}
+				}
+			}
+		}
+	}
+}
+}

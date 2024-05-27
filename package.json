@@ -1,0 +1,26 @@
+{
+  "name": "three-init-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@esotericsoftware/spine-canvas": "^4.2.22",
+    "@esotericsoftware/spine-core": "^4.2.22",
+    "@esotericsoftware/spine-threejs": "^4.2.22",
+    "@esotericsoftware/spine-webgl": "^4.2.22",
+    "@nodetoy/three-nodetoy": "^0.1.36",
+    "stats.js": "^0.17.0",
+    "three": "^0.164.1",
+    "vite": "^5.2.11"
+  },
+  "devDependencies": {
+    "dat.gui": "^0.7.9"
+  }
+}

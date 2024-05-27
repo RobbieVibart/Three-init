@@ -1,0 +1,12 @@
+LowSymMask_Anim.png
+size:229,75
+filter:Linear,Linear
+pma:true
+scale:0.3
+GLOW
+bounds:0,0,75,75
+offsets:1,1,77,77
+Mask
+bounds:77,0,66,66
+Particle_Gradient_05_Masked_01
+bounds:154,0,38,38

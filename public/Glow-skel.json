@@ -1,0 +1,50 @@
+{
+  "skeleton": {
+    "hash": "3bsj0CEK5cA",
+    "spine": "4.2.23",
+    "x": -64,
+    "y": -64,
+    "width": 128,
+    "height": 128
+  },
+  "bones": [{ "name": "root" }, { "name": "GlowBn", "parent": "root" }],
+  "slots": [
+    {
+      "name": "Glow-explosion_01",
+      "bone": "GlowBn",
+      "color": "fff00ff",
+      "attachment": "Glow-explosion_",
+      "blend": "additive"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "Glow-explosion_01": {
+          "Glow-explosion_": {
+            "width": 128,
+            "height": 128,
+            "sequence": { "count": 64, "digits": 2 }
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "GlowExp": {
+      "attachments": {
+        "default": {
+          "Glow-explosion_01": {
+            "Glow-explosion_": {
+              "sequence": [
+                { "mode": "loop", "delay": 0.0333 },
+                { "time": 2.1, "mode": "loop", "index": 63 }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
